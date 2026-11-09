@@ -24,6 +24,26 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.avatar-menu-favorites-1.2.0.zip",
           "zipSHA256": "e36401bb277d594d411b852bf4a7134c3f6ff5328d7faf5f320ce9f4b0189c7e"
+        },
+        "1.3.0": {
+          "name": "dev.nxyui.avatar-menu-favorites",
+          "displayName": "Avatar Menu Favorites",
+          "version": "1.3.0",
+          "unity": "2022.3",
+          "description": "Custom VRChat avatar menus, favorites, and display names. Existing scene settings are preserved when migrating from the unitypackage release.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "legacyFiles": {
+            "Assets/AvatarMenuFavorites/Runtime/AvatarMenuFavorites.cs": "136fc4fc1eb65da59056697a4a59d856",
+            "Assets/AvatarMenuFavorites/Editor/AvatarMenuFavoritesWindow.cs": "40b3176f3e205d7fb93ae755d1c386cd",
+            "Assets/AvatarMenuFavorites/README_KO.txt": "4e33531758c85675bdc89b6a64791346",
+            "Assets/AvatarMenuFavorites/Editor/FavoriteMenuBuilder.cs": "57cc9701105a59af93686a1bedf6aaba"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.avatar-menu-favorites-1.3.0.zip",
+          "zipSHA256": "0e1d44bb48c80305d3ff18e24d5d815b65b6e9f880ecd7f62b9ab14c5f5cb0c8"
         }
       }
     },
