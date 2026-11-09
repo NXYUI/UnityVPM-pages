@@ -44,6 +44,26 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.avatar-menu-favorites-1.3.0.zip",
           "zipSHA256": "0e1d44bb48c80305d3ff18e24d5d815b65b6e9f880ecd7f62b9ab14c5f5cb0c8"
+        },
+        "1.3.1": {
+          "name": "dev.nxyui.avatar-menu-favorites",
+          "displayName": "Avatar Menu Favorites",
+          "version": "1.3.1",
+          "unity": "2022.3",
+          "description": "Custom VRChat avatar menus, favorites, and display names. Existing scene settings are preserved when migrating from the unitypackage release.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "legacyFiles": {
+            "Assets/AvatarMenuFavorites/Runtime/AvatarMenuFavorites.cs": "136fc4fc1eb65da59056697a4a59d856",
+            "Assets/AvatarMenuFavorites/Editor/AvatarMenuFavoritesWindow.cs": "40b3176f3e205d7fb93ae755d1c386cd",
+            "Assets/AvatarMenuFavorites/README_KO.txt": "4e33531758c85675bdc89b6a64791346",
+            "Assets/AvatarMenuFavorites/Editor/FavoriteMenuBuilder.cs": "57cc9701105a59af93686a1bedf6aaba"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.avatar-menu-favorites-1.3.1.zip",
+          "zipSHA256": "3f786a63254f5d2efa05d8138dbcbc218fe54ad55844f286e99a5c2ab5c57dca"
         }
       }
     },
@@ -76,6 +96,34 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.personal-pose-deck-0.7.1.zip",
           "zipSHA256": "5eeb460fce06de71994e8e96ab155dda440754706f200ad604b3a17862eb6359"
+        },
+        "0.8.0": {
+          "name": "dev.nxyui.personal-pose-deck",
+          "displayName": "Personal Pose Deck",
+          "version": "0.8.0",
+          "unity": "2022.3",
+          "description": "Browse Humanoid poses and build a custom deck for GoGoLoco All (Modular Avatar) 1.8.6. GoGoLoco is installed separately.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "legacyFiles": {
+            "Assets/PersonalPoseDeck/Editor/PoseDeckBuilder.cs": "00f88ce20fa85662b0faaed3c11edb51",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPreviewConstraints.cs": "0faccc2f3153541b80f241642fc0fde5",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPoseGallery.cs": "161e56c0cab3514cb8e954e285e1b79f",
+            "Assets/PersonalPoseDeck/README_KO.txt": "3ff9ce23c8045ea2ac0a66192a8b39cb",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPosePreview.cs": "74a5f8242ce150e9a351401659be3997",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckAvatarInstallation.cs": "8789778d3a2057c5b07600695d5a810e",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPreset.cs": "90852c04fae650129684ce1a9f6a33e7",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPoseBrowser.cs": "9f5ee7b54bb25ddcbb4dfcbff0394dc4",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckAvatarFilter.cs": "b86d4693e5805b1fb215e9f200c0a827",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckWindow.cs": "c4b8a16046965b0d914b428a34e4c3fa",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckExistingInstallation.cs": "d12552c9ad30531083a64f6133d8fb91",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckAssemblyPreview.cs": "d17bd60750d853138c9a492defb4963b"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.personal-pose-deck-0.8.0.zip",
+          "zipSHA256": "44b5867e386b06db73d1d9910fd4969c30a35d04c577450c811be772c5132187"
         }
       }
     }
