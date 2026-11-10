@@ -195,6 +195,34 @@
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.personal-pose-deck-0.14.0.zip",
           "zipSHA256": "ea1ead9a2dee7019bfc1b2aa2a9f57b25cd918f1e2e38b160c7e207d65fe584d"
         },
+        "0.15.0": {
+          "name": "dev.nxyui.personal-pose-deck",
+          "displayName": "Personal Pose Deck",
+          "version": "0.15.0",
+          "unity": "2022.3",
+          "description": "Browse Humanoid poses and build a custom deck for GoGoLoco All (Modular Avatar) 1.8.6. GoGoLoco is installed separately.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "legacyFiles": {
+            "Assets/PersonalPoseDeck/Editor/PoseDeckBuilder.cs": "00f88ce20fa85662b0faaed3c11edb51",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPreviewConstraints.cs": "0faccc2f3153541b80f241642fc0fde5",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPoseGallery.cs": "161e56c0cab3514cb8e954e285e1b79f",
+            "Assets/PersonalPoseDeck/README_KO.txt": "3ff9ce23c8045ea2ac0a66192a8b39cb",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPosePreview.cs": "74a5f8242ce150e9a351401659be3997",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckAvatarInstallation.cs": "8789778d3a2057c5b07600695d5a810e",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPreset.cs": "90852c04fae650129684ce1a9f6a33e7",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPoseBrowser.cs": "9f5ee7b54bb25ddcbb4dfcbff0394dc4",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckAvatarFilter.cs": "b86d4693e5805b1fb215e9f200c0a827",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckWindow.cs": "c4b8a16046965b0d914b428a34e4c3fa",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckExistingInstallation.cs": "d12552c9ad30531083a64f6133d8fb91",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckAssemblyPreview.cs": "d17bd60750d853138c9a492defb4963b"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.personal-pose-deck-0.15.0.zip",
+          "zipSHA256": "35d8c34342a68760ab2e83fa0c52c4ae57275a68b2d7ada204d47b7cbf055ef6"
+        },
         "0.7.1": {
           "name": "dev.nxyui.personal-pose-deck",
           "displayName": "Personal Pose Deck",
