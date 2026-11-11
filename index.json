@@ -142,6 +142,29 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.avatar-customizer-2.3.0.zip",
           "zipSHA256": "4dac98ba3479907915695d79028aa48e3c8468762ec70699a7e8952eeaf77f8d"
+        },
+        "2.4.0": {
+          "name": "dev.nxyui.avatar-customizer",
+          "displayName": "Avatar Customizer",
+          "version": "2.4.0",
+          "unity": "2022.3",
+          "description": "VRChat avatar menu favorites, display names, item moves, default values and blendshape controls. Replaces Avatar Menu Favorites; existing scene settings are kept.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "legacyPackages": [
+            "dev.nxyui.avatar-menu-favorites"
+          ],
+          "legacyFiles": {
+            "Assets/AvatarMenuFavorites/Runtime/AvatarMenuFavorites.cs": "136fc4fc1eb65da59056697a4a59d856",
+            "Assets/AvatarMenuFavorites/Editor/AvatarMenuFavoritesWindow.cs": "40b3176f3e205d7fb93ae755d1c386cd",
+            "Assets/AvatarMenuFavorites/README_KO.txt": "4e33531758c85675bdc89b6a64791346",
+            "Assets/AvatarMenuFavorites/Editor/FavoriteMenuBuilder.cs": "57cc9701105a59af93686a1bedf6aaba"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.avatar-customizer-2.4.0.zip",
+          "zipSHA256": "17d7e0155ed546c401ef99656f7ccd00a579aec5842248ecd0f3883ccc7b0a9f"
         }
       }
     },
