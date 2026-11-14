@@ -17,7 +17,7 @@ https://nxyui.github.io/UnityVPM-pages/index.json
 
 | 패키지 | 하는 일 | 가이드 |
 | --- | --- | --- |
-| **Avatar Customizer**<br>`dev.nxyui.avatar-customizer` | 빌드된 Expressions 메뉴를 정리(이름 변경·위치 이동)하고, 그 위에 즐겨찾기 메뉴·기본값·블렌드쉐이프 컨트롤을 만듭니다. | [가이드](packages/dev.nxyui.avatar-customizer/README.md) |
+| **Avatar Customizer**<br>`dev.nxyui.avatar-customizer` | 빌드된 Expressions 메뉴를 정리(이름 변경·위치 이동·숨기기)하고, 그 위에 즐겨찾기 메뉴·기본값·블렌드쉐이프 컨트롤을 만듭니다. | [가이드](packages/dev.nxyui.avatar-customizer/README.md) |
 | **Personal Pose Deck**<br>`dev.nxyui.personal-pose-deck` | 원하는 Humanoid 포즈 클립으로 GoGoLoco 포즈 덱을 만들고, 포즈를 탐색·미리보기합니다. | [가이드](packages/dev.nxyui.personal-pose-deck/README.md) |
 | Avatar Menu Favorites<br>`dev.nxyui.avatar-menu-favorites` | 지원 종료. Avatar Customizer로 바뀌었습니다. Avatar Customizer를 설치하면 자동으로 제거되고, 씬의 설정은 그대로 이어집니다. | [Avatar Customizer](packages/dev.nxyui.avatar-customizer/README.md) |
 
