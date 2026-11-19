@@ -936,6 +936,42 @@
         }
       }
     },
+    "dev.nxyui.asset-manager": {
+      "versions": {
+        "0.1.0": {
+          "name": "dev.nxyui.asset-manager",
+          "displayName": "Asset Manager",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "description": "See the project's Booth assets by product, link them to their Booth pages, import .unitypackage files (also from zip archives) through a queue, and assemble outfits and accessories onto an avatar with Modular Avatar.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.asset-manager-0.1.0.zip",
+          "zipSHA256": "aff84b23508de8d48408a204ce78705fca6910a229ff4a7cdb1e4179766ce15c"
+        }
+      }
+    },
+    "dev.nxyui.assembly-checker": {
+      "versions": {
+        "0.1.0": {
+          "name": "dev.nxyui.assembly-checker",
+          "displayName": "Assembly Checker",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "description": "Checks a VRChat avatar after assembling outfits and gimmicks, on a built copy: unmerged outfit armatures, PhysBones on the same bones, Anchor Override and Bounds, body shrink shapekeys, hidden objects that still upload, synced bits per prefab, and every texture with the object, material and slot it sits in. Removes expression parameters nothing uses at build time.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.assembly-checker-0.1.0.zip",
+          "zipSHA256": "e9baf0b86dcece1c563f2903e9597c9c593d0e16c3bfc57a4b4357c26b4853aa"
+        }
+      }
+    },
     "dev.nxyui.avatar-menu-favorites": {
       "versions": {
         "1.2.0": {
