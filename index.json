@@ -1102,6 +1102,24 @@
         }
       }
     },
+    "dev.nxyui.hair-gradation": {
+      "versions": {
+        "0.1.0": {
+          "name": "dev.nxyui.hair-gradation",
+          "displayName": "Hair Gradation",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "description": "Puts one gradient across every part of a hair, with an optional pattern inside it, from the hair's root object. Builds the TexTransTool setup for you (one gradient by 3D height, a canvas per hair texture, the pattern clipped to the gradient), checks UV overlaps between parts, and can write into lilToon's Main Color 2nd/3rd instead of the main texture. Applied at build by TexTransTool; the original textures are not changed.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "net.rs64.tex-trans-tool": ">=1.0.2 <2.0.0-a"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.hair-gradation-0.1.0.zip",
+          "zipSHA256": "dd36019f695fe2a7cfdb979858d8b77c9e411f28eae34092438124dd79ade316"
+        }
+      }
+    },
     "dev.nxyui.avatar-menu-favorites": {
       "versions": {
         "1.2.0": {
