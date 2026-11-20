@@ -1011,6 +1011,20 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.asset-manager-0.2.0.zip",
           "zipSHA256": "fb889dd74d58182527f3b0c478e89acc7e4bb168425a475daec9dd7ceb9ea48a"
+        },
+        "0.3.0": {
+          "name": "dev.nxyui.asset-manager",
+          "displayName": "Asset Manager",
+          "version": "0.3.0",
+          "unity": "2022.3",
+          "description": "See the project's Booth assets by product, link them to their Booth pages, import .unitypackage files (also from zip archives) through a queue, and assemble outfits and accessories onto an avatar with Modular Avatar.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.asset-manager-0.3.0.zip",
+          "zipSHA256": "57ccc8e3c82d8208883101866a399cdfb3ab5fd15634e0fa29b1ddc13bb1c2fe"
         }
       }
     },
