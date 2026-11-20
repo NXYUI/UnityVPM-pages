@@ -22,6 +22,7 @@ https://nxyui.github.io/UnityVPM-pages/index.json
 | **Asset Manager**<br>`dev.nxyui.asset-manager` | 프로젝트의 에셋을 Booth 상품 단위로 보여 주고 Booth 페이지와 연결합니다. 폴더와 압축 파일 속 .unitypackage를 대기열로 가져오고, 카드에서 바로 아바타에 조립(Modular Avatar Outfit·Bone Proxy)합니다. | [가이드](packages/dev.nxyui.asset-manager/README.md) |
 | **Assembly Checker**<br>`dev.nxyui.assembly-checker` | 아바타의 복제본을 빌드해서 업로드 전에 문제를 찾습니다(합쳐지지 않은 의상 아마추어, PhysBone 중복, Anchor Override·Bounds, 꺼진 채 올라가는 오브젝트). 텍스처마다 어느 오브젝트·머티리얼·칸에 있는지 보여 주고, 빌드할 때 안 쓰는 파라미터를 지웁니다. | [가이드](packages/dev.nxyui.assembly-checker/README.md) |
 | **Hair Gradation**<br>`dev.nxyui.hair-gradation` | 헤어 루트 하나로, 파츠가 나뉜 헤어 전체에 높이에 따라 이어지는 그라데이션과 그 안의 패턴을 넣습니다. TexTransTool 구성을 대신 만들고 UV 겹침을 확인하며, lilToon 메인 컬러 2nd/3rd에도 넣을 수 있습니다. | [가이드](packages/dev.nxyui.hair-gradation/README.md) |
+| **AI Expression**<br>`dev.nxyui.ai-expression` | 원하는 표정을 말로 적으면 Claude가 얼굴 쉐이프키 값을 정합니다. 쉐이프키마다 무엇을 움직이는지 미리 읽어 둔 얼굴 사전으로 토큰을 아끼고, 이 창의 Claude API나 Claude Code(MCP)에서 쓸 수 있습니다. 복제본에서 작업하고 표정 클립으로 저장합니다. | [가이드](packages/dev.nxyui.ai-expression/README.md) |
 | Avatar Menu Favorites<br>`dev.nxyui.avatar-menu-favorites` | 지원 종료. Avatar Customizer로 바뀌었습니다. Avatar Customizer를 설치하면 자동으로 제거되고, 씬의 설정은 그대로 이어집니다. | [Avatar Customizer](packages/dev.nxyui.avatar-customizer/README.md) |
 
 ## 공통 요구 사항

@@ -1120,6 +1120,23 @@
         }
       }
     },
+    "dev.nxyui.ai-expression": {
+      "versions": {
+        "0.1.0": {
+          "name": "dev.nxyui.ai-expression",
+          "displayName": "AI Expression",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "description": "Make facial expressions by describing them. A local face dictionary (what each face blendshape moves, read from its vertex deltas) lets Claude answer with blendshape ids and values, through the Claude API from this window or through MCP from Claude Code. A direct-edit mode applies, captures the face and refines. Works on a copy of the face meshes by default and saves the result as an expression clip.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.ai-expression-0.1.0.zip",
+          "zipSHA256": "b0dfcad6b24076a168225a3d1061e76dd58b550a6c67c4adda6d6f783fe23bab"
+        }
+      }
+    },
     "dev.nxyui.avatar-menu-favorites": {
       "versions": {
         "1.2.0": {
