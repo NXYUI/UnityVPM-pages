@@ -326,6 +326,29 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.avatar-customizer-2.9.0.zip",
           "zipSHA256": "723347d3b6ad823e743934f2fb89d7b17170bbb80eee96cb8f6eb9a73a031461"
+        },
+        "2.9.1": {
+          "name": "dev.nxyui.avatar-customizer",
+          "displayName": "Avatar Customizer",
+          "version": "2.9.1",
+          "unity": "2022.3",
+          "description": "VRChat avatar menu favorites, display names, item moves, hidden items, default values, blendshape controls and menu icons (rendered from the avatar), editable in a live view of the final menu. Replaces Avatar Menu Favorites; existing scene settings are kept.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "legacyPackages": [
+            "dev.nxyui.avatar-menu-favorites"
+          ],
+          "legacyFiles": {
+            "Assets/AvatarMenuFavorites/Runtime/AvatarMenuFavorites.cs": "136fc4fc1eb65da59056697a4a59d856",
+            "Assets/AvatarMenuFavorites/Editor/AvatarMenuFavoritesWindow.cs": "40b3176f3e205d7fb93ae755d1c386cd",
+            "Assets/AvatarMenuFavorites/README_KO.txt": "4e33531758c85675bdc89b6a64791346",
+            "Assets/AvatarMenuFavorites/Editor/FavoriteMenuBuilder.cs": "57cc9701105a59af93686a1bedf6aaba"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.avatar-customizer-2.9.1.zip",
+          "zipSHA256": "2d9f853183fe91001ad3d102bea5b96fa00258147ddfe7c406a04bc9b64f6abb"
         }
       }
     },
@@ -947,6 +970,34 @@
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.personal-pose-deck-0.23.0.zip",
           "zipSHA256": "40e819e9fdcb406f1d846fae4149cfdf6532b2616d19c285a1152d633bdc3a30"
         },
+        "0.23.1": {
+          "name": "dev.nxyui.personal-pose-deck",
+          "displayName": "Personal Pose Deck",
+          "version": "0.23.1",
+          "unity": "2022.3",
+          "description": "Browse Humanoid poses and build a custom deck for GoGoLoco All (Modular Avatar) 1.8.6. GoGoLoco is installed separately.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "legacyFiles": {
+            "Assets/PersonalPoseDeck/Editor/PoseDeckBuilder.cs": "00f88ce20fa85662b0faaed3c11edb51",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPreviewConstraints.cs": "0faccc2f3153541b80f241642fc0fde5",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPoseGallery.cs": "161e56c0cab3514cb8e954e285e1b79f",
+            "Assets/PersonalPoseDeck/README_KO.txt": "3ff9ce23c8045ea2ac0a66192a8b39cb",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPosePreview.cs": "74a5f8242ce150e9a351401659be3997",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckAvatarInstallation.cs": "8789778d3a2057c5b07600695d5a810e",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPreset.cs": "90852c04fae650129684ce1a9f6a33e7",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckPoseBrowser.cs": "9f5ee7b54bb25ddcbb4dfcbff0394dc4",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckAvatarFilter.cs": "b86d4693e5805b1fb215e9f200c0a827",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckWindow.cs": "c4b8a16046965b0d914b428a34e4c3fa",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckExistingInstallation.cs": "d12552c9ad30531083a64f6133d8fb91",
+            "Assets/PersonalPoseDeck/Editor/PoseDeckAssemblyPreview.cs": "d17bd60750d853138c9a492defb4963b"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.personal-pose-deck-0.23.1.zip",
+          "zipSHA256": "edb9ebd84f4c57ac2b4824c3771ee2ffa0d5b9678e5a0eab650a0b8e87741d3f"
+        },
         "0.7.1": {
           "name": "dev.nxyui.personal-pose-deck",
           "displayName": "Personal Pose Deck",
@@ -1146,6 +1197,20 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.asset-manager-0.8.0.zip",
           "zipSHA256": "b5c8c0360cc9beaa2f431d0b3b8e779460534d95bef637e42b73d6190a42df4c"
+        },
+        "0.8.1": {
+          "name": "dev.nxyui.asset-manager",
+          "displayName": "Asset Manager",
+          "version": "0.8.1",
+          "unity": "2022.3",
+          "description": "See the project's Booth assets by product, link them to their Booth pages, import .unitypackage files (also from zip archives) through a queue, and assemble outfits and accessories onto an avatar with Modular Avatar.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.asset-manager-0.8.1.zip",
+          "zipSHA256": "cf805ec609ff8013b36734932a7a8fd32f6d0be68d556f1e6f9ea72b91d8b3c4"
         }
       }
     },
@@ -1192,6 +1257,20 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.assembly-checker-0.3.0.zip",
           "zipSHA256": "c3b797decb509b8cb8af6d481fc996d91ae8137551bf71fe72bcb5038f3be16a"
+        },
+        "0.3.1": {
+          "name": "dev.nxyui.assembly-checker",
+          "displayName": "Assembly Checker",
+          "version": "0.3.1",
+          "unity": "2022.3",
+          "description": "Checks a VRChat avatar after assembling outfits and gimmicks, on a built copy: unmerged outfit armatures, PhysBones on the same bones, Anchor Override and Bounds, body shrink shapekeys, hidden objects that still upload, synced bits per prefab, and every texture with the object, material and slot it sits in. Removes expression parameters nothing uses at build time.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.assembly-checker-0.3.1.zip",
+          "zipSHA256": "d711fdac763984fed77c9df7ed3d672e7d560e7013c96ea6dc7f9a827f9e34b7"
         }
       }
     },
@@ -1224,6 +1303,20 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.hair-gradation-0.2.0.zip",
           "zipSHA256": "d12e78d7917cebb462f6a6aee674e0587a607507782e2b02b755b82d9df77480"
+        },
+        "0.3.0": {
+          "name": "dev.nxyui.hair-gradation",
+          "displayName": "Hair Gradation",
+          "version": "0.3.0",
+          "unity": "2022.3",
+          "description": "Puts one gradient across every part of a hair, with an optional pattern inside it, from the hair's root object. Builds the TexTransTool setup for you (one gradient by 3D height, a canvas per hair texture, the pattern clipped to the gradient), checks UV overlaps between parts, and can write into lilToon's Main Color 2nd/3rd instead of the main texture. Applied at build by TexTransTool; the original textures are not changed.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "net.rs64.tex-trans-tool": ">=1.0.2 <2.0.0-a"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.hair-gradation-0.3.0.zip",
+          "zipSHA256": "7659ca92ad285284ab3001e3bbb0ddb86cf65da3e504ee05bc1e3e0025fef7fb"
         }
       }
     },
@@ -1254,6 +1347,19 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.ai-expression-0.2.0.zip",
           "zipSHA256": "c5611397288c2422357679a0950b23568b7d22261b45e214ea4db2d800015ed3"
+        },
+        "0.2.1": {
+          "name": "dev.nxyui.ai-expression",
+          "displayName": "AI Expression",
+          "version": "0.2.1",
+          "unity": "2022.3",
+          "description": "Make facial expressions by describing them. A local face dictionary (what each face blendshape moves, read from its vertex deltas) lets Claude answer with blendshape ids and values, through the Claude API from this window or through MCP from Claude Code. A direct-edit mode applies, captures the face and refines. Works on a copy of the face meshes by default and saves the result as an expression clip.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.ai-expression-0.2.1.zip",
+          "zipSHA256": "8571392f2df8650ae54634bf781770895e56df38d1abd5cdbb18e98fc8d867e4"
         }
       }
     },
