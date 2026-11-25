@@ -1211,6 +1211,20 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.asset-manager-0.8.1.zip",
           "zipSHA256": "cf805ec609ff8013b36734932a7a8fd32f6d0be68d556f1e6f9ea72b91d8b3c4"
+        },
+        "0.8.2": {
+          "name": "dev.nxyui.asset-manager",
+          "displayName": "Asset Manager",
+          "version": "0.8.2",
+          "unity": "2022.3",
+          "description": "See the project's Booth assets by product, link them to their Booth pages, import .unitypackage files (also from zip archives) through a queue, and assemble outfits and accessories onto an avatar with Modular Avatar.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.asset-manager-0.8.2.zip",
+          "zipSHA256": "8874f9b5175aa87def8203882753c2e59c57a8f9d49ecc1f8ead018d95ad0fa3"
         }
       }
     },
@@ -1271,6 +1285,20 @@
           },
           "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.assembly-checker-0.3.1.zip",
           "zipSHA256": "d711fdac763984fed77c9df7ed3d672e7d560e7013c96ea6dc7f9a827f9e34b7"
+        },
+        "0.3.2": {
+          "name": "dev.nxyui.assembly-checker",
+          "displayName": "Assembly Checker",
+          "version": "0.3.2",
+          "unity": "2022.3",
+          "description": "Checks a VRChat avatar after assembling outfits and gimmicks, on a built copy: unmerged outfit armatures, PhysBones on the same bones, Anchor Override and Bounds, body shrink shapekeys, hidden objects that still upload, synced bits per prefab, and every texture with the object, material and slot it sits in. Removes expression parameters nothing uses at build time.",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.6 <4.0.0-a",
+            "nadena.dev.ndmf": ">=1.14.8 <2.0.0-a",
+            "nadena.dev.modular-avatar": ">=1.18.7 <2.0.0-a"
+          },
+          "url": "https://nxyui.github.io/UnityVPM-pages/releases/dev.nxyui.assembly-checker-0.3.2.zip",
+          "zipSHA256": "06b0a711b3756197a5899ad80b3997d0812437b58ce4638e8ec6272a086715cb"
         }
       }
     },
